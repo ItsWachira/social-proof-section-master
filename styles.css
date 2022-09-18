@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+
+}
+main{
+    width: 1400px;
+    height: 500px;
+    margin: 120px 150px;
+}
+
+/*intro section styling */
+
+.intro-stats-info .main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
+.main-container .intro-info  h1{
+    width: 40%;
+  font-size: 3.5rem;
+    font-weight: 700;
+    color:hsl(300, 43%, 22%);
+    padding-bottom: 30px;
+}
+
+.main-container .intro-info  p{
+    width: 45%;
+    font-size: 18px;
+    font-weight: 400;
+    color:hsl(303, 10%, 53%);
+
+}
+
+.main-container .intro-stats {
+    display: flex;
+    flex-direction: column;
+
+
+}
+.main-container .intro-stats .review-stats,
+.main-container .intro-stats .report-stats,
+.main-container .intro-stats .bestTech-stats {
+    height: 75px;
+    width:  400px;
+    padding: 20px 14px;
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 13px;
+    margin-bottom: 20px;
+}
+
+.main-container .intro-stats .report-stats{
+    position: relative;
+    left: 30px;
+}
+.main-container .intro-stats .bestTech-stats{
+    position: relative;
+    left: 60px;
+}
+.main-container .intro-stats .review-stats .emoji,
+.main-container .intro-stats .report-stats .emoji,
+.main-container .intro-stats .bestTech-stats .emoji {
+    display: flex;
+}
+.main-container .intro-stats .review-stats .emoji img,
+.main-container .intro-stats .report-stats .emoji img,
+.main-container .intro-stats  .bestTech-stats .emoji img{
+    height: 18px;
+    margin-left: 8px;
+}
+.main-container .intro-stats .review-stats .review-text,
+.main-container .intro-stats .report-stats .review-text,
+.main-container .intro-stats .bestTech-stats .review-text{
+    margin-left: 20px;
+    width: 100%;
+    font-size: 16px;
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+
+}
+
+/*customer reviews section styling */
+
+.customer-reviews{
+    margin-top: 20px;
+}
+
+.customer-reviews .main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.customer-reviews .main-container  .smith-review,
+.customer-reviews .main-container  .Irene-review,
+.customer-reviews .main-container  .Anne-review{
+    height: 200px;
+    width: 340px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 13px;
+    color: hsl(0, 0%, 100%);
+}
+.customer-reviews .main-container  .Irene-review{
+    position: relative;
+    top: 15px;
+}
+.customer-reviews .main-container  .Anne-review{
+    position: relative;
+    top: 30px;
+}
+.customer-reviews .main-container  .smith-review .smith-info,
+.customer-reviews .main-container  .Irene-review .Irene-info,
+.customer-reviews .main-container  .Anne-review .Anne-info{
+   display:flex;
+    margin: 25px 30px;
+}
+.customer-reviews .main-container  .smith-review .smith-info p,
+.customer-reviews .main-container  .Irene-review .Irene-info p,
+.customer-reviews .main-container  .Anne-review .Anne-info p{
+    color:hsl(333, 80%, 67%);
+    margin-top: 5px;
+}
+
+
+.customer-reviews .main-container  .smith-review .smith-info img,
+.customer-reviews .main-container  .Irene-review .Irene-info img,
+.customer-reviews .main-container  .Anne-review .Anne-info img{
+    border-radius: 50%;
+    height:40px;
+    width: 40px;
+}
+.customer-reviews .main-container  .smith-review .smith-info .reviewer-info,
+.customer-reviews .main-container  .Irene-review .Irene-info .reviewer-info,
+.customer-reviews .main-container  .Anne-review .Anne-info .reviewer-info{
+   margin: 10px 0  0 20px ;
+}
+.customer-reviews .main-container  .smith-review .review-text,
+.customer-reviews .main-container  .Irene-review .review-text,
+.customer-reviews .main-container  .Anne-review .review-text{
+    width: 85%;
+    margin: 15px 30px;
+}
+
+
+
+
+
+
+
+
+
+
